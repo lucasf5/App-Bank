@@ -1,0 +1,59 @@
+.home {
+  background-color: var(--Shape);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 50vw;
+    min-width: 500px;
+    height: 50vh;
+    color: var(--Titulo);
+    background-color: var(--Background);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc, -5px -5px 5px #fff;
+    .money{
+        width: 5rem;
+    }
+    &__label {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__input {
+        background: #e7e9ee;
+        border: 1px solid #d7d7d7;
+        border-radius: 5px;
+        width: 350px;
+        height: 44px;
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    &__button {
+      width: 80%;
+      height: 3rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+      background-color: var(--Blue);
+      color: var(--Shape);
+      box-shadow: 2px 2px 2px #ccc, -2px -2px 2px #fff;
+      &:hover {
+        box-shadow: 2px 2px 2px #fff, -2px -2px 2px #ccc;
+      }
+    }
+  }
+}
