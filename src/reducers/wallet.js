@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 const initialState = {
   currencies: [], // array de string
   expenses: [], // array de objetos, com cada objeto tendo as chaves id, value, currency, method, tag, description e exchangeRates
@@ -18,7 +20,7 @@ export default function wallet(state = initialState, action) {
     return {
       ...state,
       expenses: [...state.expenses, {
-        id: state.expenses.length,
+        id: uuidv4(),
         ...action.payload.expense,
       }],
     };
