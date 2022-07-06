@@ -32,10 +32,9 @@
 Este projeto foi feito utilizando as seguintes tecnologias:
 
 - [React](https://pt-br.reactjs.org/docs/react-component.html)
-- [ContextApi]()
 - [React-Icons]()
 - [Sass]()
-- [Styled Components]()
+- [Redux]()
 
 # :computer: Autores
 
