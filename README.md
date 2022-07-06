@@ -55,15 +55,15 @@ Este projeto foi feito utilizando as seguintes tecnologias:
        <a href="https://www.linkedin.com/in/lucasfpnt/" title="Code">💻</a>
     </td>
     <td align="center">
-      <a href="https://cursos.alura.com.br/dashboard">
-        <img src="https://avatars.githubusercontent.com/u/4975968?s=200&v=4" width="100px;" alt="Alura"/>
+      <a href="https://www.betrybe.com/">
+        <img src="https://avatars.githubusercontent.com/u/51808343?s=280&v=4" width="100px;" alt="Alura"/>
         <br />
         <sub>
-          <b>Alura</b>
+          <b>Trybe</b>
         </sub>
        </a>
        <br />
-       <a href="https://github.com/alura-cursos" title="Linkedin">@Alura</a>
+       <a href="https://www.betrybe.com/" title="Site">@Trybe</a>
        <br />
        <a href="" title="Creators">🚀</a>
     </td>
