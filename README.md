@@ -1,5 +1,5 @@
 <h1 align="center">
-   Orgs - React - Marketplace
+      React - Bank
 </h1>
 
 <p align="center">
